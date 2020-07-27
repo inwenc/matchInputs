@@ -24,7 +24,7 @@ class App extends React.Component {
       //if name value is matching the name from input
       if (array[i].name === this.state.nameFromInput) {
         //alert the age and country information that matches the name from input
-        alert (`Age is ${array[i].age} and Country is ${array[i].country}`);
+        alert (`${this.state.nameFromInput} is ${array[i].age} years old and ${this.state.nameFromInput} is from ${array[i].country}.`);
         //set boolean to true;
         isNameNotInList = true;
       }
