@@ -1,10 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 ### Project Description
 Application takes an name input from user and alerts if the name matches the data sets and returns the age and country that matches.
+
+### Available Scripts
+
+In the project directory, you can run:
 
 
 ### `npm install`
