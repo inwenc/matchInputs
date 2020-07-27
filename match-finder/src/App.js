@@ -11,6 +11,7 @@ class App extends React.Component {
       arrayOfNames: [{name: 'Adam', age: 20, country: 'Costa Rica'}, {name: 'Beatriz', age: 22, country: 'Belize'}, {name: 'Carlos', age: 24, country: 'Panama'}, {name: 'Douglas', age: 26, country: 'Guatemala'}, {name: 'Emilio', age: 28, country: 'Mexico'}, {name: 'Fabio', age: 30, country: 'Canada'}, {name: 'Geovanny', age: 21, country: 'Nicaragua'}, {name: 'Hugo', age: 23, country: 'Colombia'}, {name: 'Julio', age: 25, country: 'Paraguay'}, {name: 'Kirt', age: 27, country: 'Brazil'}],
       nameFromInput: null
     }
+    //bind the methods
     this.onHandleChange = this.onHandleChange.bind(this);
     this.findNameInObj = this.findNameInObj.bind(this);
   }
